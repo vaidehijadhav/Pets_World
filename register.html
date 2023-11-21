@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pets World</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style1.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="./cute-dog-cat-logo-design-pet-shop-178035669.jpg" alt="here is logo">
+                <h4 class="logo">Pets World</h4>
+            </div>
+            <nav>
+                    <ul class="nav-links">
+                        <li><a class="nav-links" href="./home.html">Home</a></li>
+                        <li><a class="nav-links" href="./animals.html">Animals</a></li>
+                        <li><a class="nav-links" href="./register.html">Register</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <div class="regform">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="mane">
+            <form>
+                <div id="name"></div>
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">First Name</label>
+                <input class="lastname" type="text" name="last_name">
+                <label class="lastlabel">Last Name</label>
+
+                <h2 class="name">Address</h2>
+                <textarea class="address" name="address" cols="30" rows="3"></textarea>
+
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text" name="area_code">
+                <label class="area_code">Pin Code</label>
+                <input class="number" type="text" name="phone">
+                <label class="phone_number">Phone Number</label>
+
+                <h2 id="animal">Choose your pet</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">Choose Option</option>
+                    <option>Dog</option>
+                    <option>Cat</option>
+                    <option>Hamsters</option>
+                </select><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </body>
+</html>
